@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pou FileVersion="200.00.003" Name="VcondVent" ElementGuid="7148a9cc-0955-4d9b-8d35-422460a958a7" Comment="" SingleTextLine="" Language="ST" CustomFbd="0" Localization="Prj" GroupName="(User defined)" Password="E4BDBA2BEF6CC4DC" GenDebugInfo="false" UseResPassword="true" GenerateSymbMon="true" Is1499="false">
+  <FunctionBlock IdentifierNb="0" Keyword="" InitInstance="false" SymbMonExtraBytes="128" />
+  <LocalVars>
+    <Variable Name="Vcomp" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="tabVventDeshu" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="tabVcondDeshu" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="tabVcompDeshu" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="inVvent" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="inVcond" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="offset" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="admin" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="onoffcond" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="onoffvent" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="Maintenue" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="Vmaintenue" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarInput" Alias="" AccessRights="Read" StringSize="0" Direction="Input" CommentFields="" Attributes="0" />
+    <Variable Name="outVvent" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Output" CommentFields="" Attributes="0" />
+    <Variable Name="outVCond" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="Write" StringSize="0" Direction="Output" CommentFields="" Attributes="0" />
+    <Variable Name="tabVcondDeshuOff" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+    <Variable Name="Interpolate_REAL_1" DataType="Interpolate_REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="Interpolate_REAL_2" DataType="Interpolate_REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="i" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="tabVventDeshuOff" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0">
+      <Dimension Lower="0" Upper="127" />
+    </Variable>
+  </LocalVars>
+  <PouBody><![CDATA[gFQnV1NbWi9dZGUTZGofaWwxMzU3g1NLR1dLTk4ehklLQEkhViKra2BVZ290TM5MQiNjZW0oqiVQS0dPDUvNanF3VHdlL7A/OWpsV3YkqnE/DggIbzSwU2dsbGU6fK1rUmBtb2R6yQ8NUUdVVROKPgkJR09EHo1DPw4IDApMzkxCI09gaS+wYGp2ZyFUCYFLCQkiISBhq3BwVXRkbjXkPzkjVGxhKKpxYW13ZDtMziUkIyJTRRWRV0o4DwtFD4BaTUU5DApMzggODghIRmGra2tlZHdlL7AlUEtHTw1LzUNLUSJoIHv5JTQjVk4gcPYlQEwPCyBh5CUNd2NjVjeha3BHZ3JoNItjYlhrXCB7+SVwYmBXdiSqcUBmcWl1Gq1YJCgibmYnt2BwOA8LCUiwZGZVYW5uJYBgd2t3TmYnn2xZIzg8IDWlZ1JgbW9kBaF2bHZZaF16yQ8NRkxFXweLVz8OCAwKSM1Mandnc3AuqGRwZl1TRQCIWjUrVGJvLLQpcGJgV2MuqXVAZnFpdW2wZGZVdGRuNYBgd2t3TmYn6DQ2KjkMCkjNTGp3Z3NwLqhkcGZdU0UAiFo2K1Ribyy0KXBiYFdjLql1QGZxaXVtsGRmVWFubiWAYHdrd05mJ+g0Nio5DApIzQgOCgtudTWSc2Ftdjs9YY1rcGZwcW8tpXFhXFBEQQ2bNCpMd3U7TM4MDUpEIW8vq2NiYG1vZGGQTUFNDwsJSM1qcXdUYm8voD85I0tvdCS2dWtvY3VlHpZARU9dMy4OsXE/DggICQSIVkEOCAgJSKtwcFVhbm4l/jg0LTI6DUvNDA1sd3VWN6FrcCM4PCBx6jU/DggICQSKQVtKRDoJTM5ASkddSEZ6yQ8JCQ8LRQ+AWkJWTEJUCItLW0FOTkMK]]></PouBody>
+  <PouUIProperties><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxSb290IFZlcnNpb249IjciPg0KICA8TGFuZ3VhZ2VDb250YWluZXJTdHlsZSBDb21tZW50VGV4dENvbG9yPSJHcmVlbiIgQ29tbWVudEZvbnQ9IkNvdXJpZXIgTmV3LCAxMHB0IiBQb25jdHVhdGlvblRleHRDb2xvcj0iQmxhY2siIFBvbmN0dWF0aW9uRm9udD0iQ291cmllciBOZXcsIDEwcHQiIElkZW50aWZpZXJUZXh0Q29sb3I9IkJsYWNrIiBJZGVudGlmaWVyRm9udD0iQ291cmllciBOZXcsIDEwcHQiIE9wZXJhdG9yVGV4dENvbG9yPSJCbGFjayIgT3BlcmF0b3JGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgUmVzZXJ2ZWRXb3JkVGV4dENvbG9yPSJCbHVlIiBSZXNlcnZlZFdvcmRGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgUG91VGV4dENvbG9yPSJCbHVlVmlvbGV0IiBQb3VGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgTnVtYmVyVGV4dENvbG9yPSJEYXJrUmVkIiBOdW1iZXJGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgU3RyaW5nVGV4dENvbG9yPSJEYXJrUmVkIiBTdHJpbmdGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgRWRpdG9yVGV4dEFyZWFCYWNrZ3JvdW5kQ29sb3I9IldoaXRlIiBFZGl0b3JGb250PSJDb3VyaWVyIE5ldywgMTBwdCIgSW5kZXg9IjAiIC8+DQo8L1Jvb3Q+]]></PouUIProperties>
+</Pou>
