@@ -203,7 +203,7 @@
       StringSize="0" />
     <Variable
       Name="AlrmRes"
-      Comment="Alarm all reset"
+      Comment=""
       DataType="BOOL"
       Kind="Var"
       IO="false"

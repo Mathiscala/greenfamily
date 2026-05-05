@@ -18643,9 +18643,24 @@ msgid "3"
 msgstr "5"
 
 #: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2][Field:Text_18]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2][Field:Text_19]"
+msgid "Encadrement T"
+msgstr "ACQ_Al_Trip"
+
+#: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text]"
 msgid "hysteresis"
 msgstr "hysteresis"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_2]"
+msgid "IF Tß<SETP-HYS : HEAT"
+msgstr "IF Tß<SETP-HYS : HEAT"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_3]"
@@ -18656,6 +18671,11 @@ msgstr "HYS Temp~"
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_4]"
 msgid "HYS HR~"
 msgstr "HYS RH~"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_5]"
+msgid "IF Tß>SETP+HYS : COOL"
+msgstr "IF Tß>SETP+HYS : COOL"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_6]"
@@ -18711,16 +18731,6 @@ msgstr "1"
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_19]"
 msgid "%"
 msgstr "%"
-
-#: 02_Main.otws
-msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_2]"
-msgid "IF Tß<SETP-HYS : HEAT"
-msgstr "IF Tß<SETP-HYS : HEAT"
-
-#: 02_Main.otws
-msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_5]"
-msgid "IF Tß>SETP+HYS : COOL"
-msgstr "IF Tß>SETP+HYS : COOL"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_9]"
@@ -18811,6 +18821,161 @@ msgstr ""
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_4_Clone_2][Field:Text_16]"
 msgid ""
 msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text]"
+msgid "SET COMP"
+msgstr "SET COMP"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_2]"
+msgid "Encadrement T"
+msgstr "varationCalc"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_3]"
+msgid "Encadrement HR"
+msgstr "PwrpReadyToGo"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_4]"
+msgid "s"
+msgstr "s"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_5]"
+msgid "varationCalc"
+msgstr "logic expo"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_6]"
+msgid "Request Comp"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_7]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_8]"
+msgid "Encadrem actu"
+msgstr "TIME VENT~COMP"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_9]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_10]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_11]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_12]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_13]"
+msgid ":"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_14]"
+msgid "requestsimu"
+msgstr "requestsimu"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_17]"
+msgid "2"
+msgstr "2bis"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_18]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_19]"
+msgid "varationCalc"
+msgstr "VlvReadyToGo"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text]"
+msgid "SET COMP"
+msgstr "RAMP COMP"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_2]"
+msgid "RampEnable"
+msgstr "RampEnable"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_3]"
+msgid "RampEnable"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_4]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_5]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_6]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_7]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_8]"
+msgid "Ramp1_Slope_1"
+msgstr "Ramp1_Slope"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_9]"
+msgid "Ramp1_Slope_1"
+msgstr "TimeRamp1"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_10]"
+msgid "TimeRamp2"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_11]"
+msgid "Ramp2_Slope"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_12]"
+msgid "s"
+msgstr "m"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_13]"
+msgid "s"
+msgstr "m"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_17]"
+msgid "2bis"
+msgstr "2bis"
 
 #: 02_Main.otws
 msgctxt "[Mask:SysInfo_1][Field:Text]"

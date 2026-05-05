@@ -52,7 +52,38 @@ cycleTime actu
 ~
 s
 2
-OFFSET External Cond
+:
+ACQ_Al_Trip
+SET COMP
+varationCalc
+PwrpReadyToGo
+:
+:
+2bis
+:
+VlvReadyToGo
+TIME VENT~COMP
+:
+s
+Request Comp
+:
+logic expo
+:
+RAMP COMP
+2bis
+RampEnable
+:
+:
+:
+:
+:
+Ramp1_Slope
+TimeRamp1
+TimeRamp2
+Ramp2_Slope
+s
+s
+OFFSET Vent
 offset_TooCol
 offset_OK
 offset_TooHot
@@ -72,6 +103,33 @@ h
 SunRise
 SunSet
 4
+External Cond
+TextLimiteMin
+TextCoef
+TsoufflageCoef
+:
+:
+:
+5
+TserreCoef
+Ž
+:
+simulation
+simulator~
+HRconsig_simu
+Tserre_simu
+:
+:
+:
+HRserre_simu
+Ž
+:
+Tconsig_simu
+Text_simu
+:
+Ž
+Ž
+6
 Info
 *FIRMENNAME*
 SW-Ver.:

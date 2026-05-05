@@ -105,10 +105,70 @@
         <Field Type="Variable" Name="Variable_6" Row="7" Column="15" Content="AIRGAIA.CyclingTime_Comp" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Text" Name="Text_16" Row="7" Column="21" Content="s" />
         <Field Type="Text" Name="Text_17" Row="0" Column="21" Content="2" />
+        <Field Type="Variable" Name="Variable_7" Row="1" Column="15" Content="AIRGAIA.ACQ_AL_inverter" Min="0" Max="1" Class="onoff" Format="iob" />
+        <Field Type="Text" Name="Text_18" Row="1" Column="14" Content=":" />
+        <Field Type="Text" Name="Text_19" Row="1" Column="0" Content="ACQ_Al_Trip" />
       </Fields>
       <KeyBindings />
     </Mask>
-    <Mask Name="SwInfo_Clone_2_Clone_2" Type="Normal" X="4" Y="8" Color="LightCyan">
+    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_2_Clone_3" Type="Normal" X="4" Y="8" Color="LightCyan">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable_12" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text" Row="0" Column="1" Content="SET COMP" />
+        <Field Type="Text" Name="Text_2" Row="2" Column="0" Content="varationCalc" />
+        <Field Type="Text" Name="Text_3" Row="4" Column="0" Content="PwrpReadyToGo" />
+        <Field Type="Text" Name="Text_10" Row="3" Column="14" Content=":" />
+        <Field Type="Text" Name="Text_11" Row="4" Column="14" Content=":" />
+        <Field Type="Text" Name="Text_17" Row="0" Column="18" Content="2bis" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="AIRGAIA.VariationCalculee_1" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_18" Row="2" Column="14" Content=":" />
+        <Field Type="Variable" Name="Variable_7" Row="3" Column="15" Content="VlvReadyToGo_EVDEMB" Min="0" Max="1" Class="onoff" Format="ob" />
+        <Field Type="Text" Name="Text_19" Row="3" Column="0" Content="VlvReadyToGo" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="PwrpReadyToGo_BLDC1" Min="0" Max="1" Class="onoff" Format="ob" />
+        <Field Type="Text" Name="Text_8" Row="6" Column="0" Content="TIME VENT~COMP" />
+        <Field Type="Text" Name="Text_12" Row="6" Column="14" Content=":" />
+        <Field Type="Variable" Name="Variable_5" Row="6" Column="15" Content="AIRGAIA.tempoComp" Class="CL_INT" Format="io+5" Min="-32768" Max="32767" />
+        <Field Type="Text" Name="Text_4" Row="6" Column="21" Content="s" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="Request Comp" />
+        <Field Type="Text" Name="Text_13" Row="5" Column="14" Content=":" />
+        <Field Type="Variable" Name="Variable_3" Row="5" Column="15" Content="AIRGAIA.compRequest" Min="0" Max="1" Class="onoff" Format="ob" />
+        <Field Type="Text" Name="Text_5" Row="1" Column="0" Content="logic expo" />
+        <Field Type="Text" Name="Text_7" Row="1" Column="14" Content=":" />
+        <Field Type="Variable" Name="Variable_4" Row="1" Column="15" Content="AIRGAIA.logicExponentiel_1" Min="0" Max="1" Class="onoff" Format="iob" />
+        <Field Type="Text" Name="Text_9" Row="7" Column="14" Content=":" />
+        <Field Type="Text" Name="Text_14" Row="7" Column="0" Content="requestsimu" />
+        <Field Type="Variable" Name="Variable_6" Row="7" Column="15" Content="AIRGAIA.onoffrequestsimu" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="iob" />
+      </Fields>
+      <KeyBindings />
+    </Mask>
+    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2" Type="Normal" X="4" Y="9" Color="LightCyan">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable_12" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text" Row="0" Column="1" Content="RAMP COMP" />
+        <Field Type="Text" Name="Text_17" Row="0" Column="18" Content="2bis" />
+        <Field Type="Variable" Name="Variable" Row="1" Column="15" Content="AIRGAIA.RampEnable_1" Min="0" Max="1" Class="onoff" Format="iob" />
+        <Field Type="Text" Name="Text_2" Row="1" Column="0" Content="RampEnable" />
+        <Field Type="Text" Name="Text_3" Row="1" Column="14" Content=":" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="14" Content=":" />
+        <Field Type="Text" Name="Text_5" Row="3" Column="14" Content=":" />
+        <Field Type="Text" Name="Text_6" Row="4" Column="14" Content=":" />
+        <Field Type="Text" Name="Text_7" Row="5" Column="14" Content=":" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="15" Content="AIRGAIA.Ramp1_Slope_1" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_8" Row="2" Column="0" Content="Ramp1_Slope" />
+        <Field Type="Text" Name="Text_9" Row="3" Column="0" Content="TimeRamp1" />
+        <Field Type="Variable" Name="Variable_3" Row="3" Column="15" Content="AIRGAIA.TimeRamp1_1" Class="CL_UDINT" Format="io6" Min="0" Max="999999" />
+        <Field Type="Text" Name="Text_10" Row="5" Column="0" Content="TimeRamp2" />
+        <Field Type="Text" Name="Text_11" Row="4" Column="0" Content="Ramp2_Slope" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="15" Content="AIRGAIA.Ramp2_Slope_1" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_12" Row="5" Column="21" Content="m" />
+        <Field Type="Text" Name="Text_13" Row="3" Column="21" Content="m" />
+        <Field Type="Variable" Name="Variable_5" Row="5" Column="15" Content="AIRGAIA.TimeRamp2_1" Class="CL_UDINT" Format="io6" Min="0" Max="999999" />
+      </Fields>
+      <KeyBindings />
+    </Mask>
+    <Mask Name="SwInfo_Clone_2_Clone_2" Type="Normal" X="4" Y="10" Color="LightCyan">
       <Fields>
         <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
         <Field Type="Variable" Name="Variable_12" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
@@ -133,7 +193,7 @@
       </Fields>
       <KeyBindings />
     </Mask>
-    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_3" Type="Normal" X="4" Y="9" Color="LightCyan">
+    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_3" Type="Normal" X="4" Y="11" Color="LightCyan">
       <Fields>
         <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
         <Field Type="Variable" Name="Variable_12" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
@@ -150,7 +210,7 @@
       </Fields>
       <KeyBindings />
     </Mask>
-    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_4" Type="Normal" X="4" Y="10" Color="LightCyan">
+    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_4" Type="Normal" X="4" Y="12" Color="LightCyan">
       <Fields>
         <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
         <Field Type="Variable" Name="Variable_12" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
@@ -172,12 +232,12 @@
       </Fields>
       <KeyBindings />
     </Mask>
-    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_4_Clone_2" Type="Normal" X="4" Y="11" Color="LightCyan">
+    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_4_Clone_2" Type="Normal" X="4" Y="13" Color="LightCyan">
       <Fields>
         <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
         <Field Type="Variable" Name="Variable_12" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
         <Field Type="Text" Name="Text" Row="0" Column="0" Content="simulation" />
-        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="AIRGAIA.HRserre_simu" Class="CL_REAL_1" Format="io+3.1" Min="-999.0" Max="999.9" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="AIRGAIA.consigneHRfinal_simu" Class="CL_REAL_1" Format="io+3.1" Min="-999.0" Max="999.9" />
         <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="AIRGAIA.Tserre_simu" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Variable" Name="Variable_3" Row="3" Column="15" Content="AIRGAIA.ConsigneTfinal_simu" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Text" Name="Text_2" Row="1" Column="0" Content="simulator~" />
@@ -532,7 +592,7 @@
         <Field Type="Text" Name="Text_2" Row="3" Column="0" Content="COMP" />
         <Field Type="Text" Name="Text_3" Row="6" Column="0" Content="COND" />
         <Field Type="Variable" Name="Variable" Row="2" Column="14" Content="AIRGAIA.Vitesse_Vent_Final" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
-        <Field Type="Variable" Name="Variable_2" Row="4" Column="14" Content="AIRGAIA.Vitesse_final_comp" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="13" Content="AIRGAIA.Vitesse_final_comp" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Variable" Name="Variable_3" Row="7" Column="14" Content="AIRGAIA.Vitesse_Final_Cond" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Variable" Name="Variable_4" Row="1" Column="15" Content="AIRGAIA.onoffVent" Min="0" Max="1" Class="onoff" Format="ob" />
         <Field Type="Variable" Name="Variable_5" Row="3" Column="15" Content="AIRGAIA.onoffComp" Min="0" Max="1" Class="onoff" Format="ob" />
@@ -544,11 +604,11 @@
         <Field Type="Text" Name="Text_7" Row="2" Column="13" Content=":" />
         <Field Type="Text" Name="Text_9" Row="3" Column="13" Content=":" />
         <Field Type="Text" Name="Text_11" Row="6" Column="13" Content=":" />
-        <Field Type="Text" Name="Text_10" Row="4" Column="13" Content=":" />
+        <Field Type="Text" Name="Text_10" Row="4" Column="12" Content=":" />
         <Field Type="Text" Name="Text_12" Row="7" Column="13" Content=":" />
-        <Field Type="Variable" Name="Variable_7" Row="5" Column="14" Content="AIRGAIA.Vitesse_Reel_comp" Class="CL_REAL_0" Format="o+3.0" Min="-999.0" Max="999.0" />
+        <Field Type="Variable" Name="Variable_7" Row="5" Column="13" Content="AIRGAIA.Vitesse_Reel_comp" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Text" Name="Text_15" Row="5" Column="0" Content="COMP Vreel" />
-        <Field Type="Text" Name="Text_17" Row="5" Column="13" Content=":" />
+        <Field Type="Text" Name="Text_17" Row="5" Column="12" Content=":" />
         <Field Type="Text" Name="Text_13" Row="5" Column="19" Content="RPS" />
       </Fields>
       <KeyBindings />

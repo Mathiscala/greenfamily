@@ -121,6 +121,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al02_uMotorResetTyp"
@@ -139,6 +140,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al03_uMotorResetTyp"
@@ -157,6 +159,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al04_uMotorResetTyp"
@@ -175,6 +178,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al05_uMotorResetTyp"
@@ -193,6 +197,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al06_uMotorResetTyp"
@@ -211,6 +216,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al07_uMotorResetTyp"
@@ -229,6 +235,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al08_uMotorResetTyp"
@@ -247,6 +254,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al09_uMotorResetTyp"
@@ -265,6 +273,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al10_uMotorResetTyp"
@@ -283,6 +292,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al11_uMotorResetTyp"
@@ -301,6 +311,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al12_uMotorResetTyp"
@@ -319,6 +330,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al13_uMotorResetTyp"
@@ -337,6 +349,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al14_uMotorResetTyp"
@@ -355,6 +368,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al15_uMotorResetTyp"
@@ -373,6 +387,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al16_uMotorResetTyp"
@@ -391,6 +406,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al17_uMotorResetTyp"
@@ -409,6 +425,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al18_uMotorResetTyp"
@@ -427,6 +444,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al19_uMotorResetTyp"
@@ -445,6 +463,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al20_uMotorResetTyp"
@@ -463,6 +482,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al21_uMotorResetTyp"
@@ -481,6 +501,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al22_uMotorResetTyp"
@@ -499,6 +520,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al23_uMotorResetTyp"
@@ -517,6 +539,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al24_uMotorResetTyp"
@@ -535,6 +558,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al25_uMotorResetTyp"
@@ -553,6 +577,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al26_uMotorResetTyp"
@@ -571,6 +596,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al27_uMotorResetTyp"
@@ -589,6 +615,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al28_uMotorResetTyp"
@@ -607,6 +634,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al29_uMotorResetTyp"
@@ -625,6 +653,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al98_uMotorResetTyp"
@@ -643,6 +672,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al99_uMotorResetTyp"
@@ -661,6 +691,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al101_uSafeResetTyp"
@@ -679,6 +710,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al102_uSafeResetTyp"
@@ -697,6 +729,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al103_uSafeResetTyp"
@@ -715,6 +748,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al104_uSafeResetTyp"
@@ -733,6 +767,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al105_uSafeResetTyp"
@@ -751,6 +786,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al106_uSafeResetTyp"
@@ -769,6 +805,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al107_uSafeResetTyp"
@@ -787,6 +824,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al108_uSafeResetTyp"
@@ -805,6 +843,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al109_uSafeResetTyp"
@@ -823,6 +862,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al110_uSafeResetTyp"
@@ -841,6 +881,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al111_uSafeResetTyp"
@@ -859,6 +900,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al112_uSafeResetTyp"
@@ -877,6 +919,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al113_uSafeResetTyp"
@@ -895,6 +938,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al114_uSafeResetTyp"
@@ -913,6 +957,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al115_uSafeResetTyp"
@@ -931,6 +976,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al116_uSafeResetTyp"
@@ -949,6 +995,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al201_uSafeResetTyp"
@@ -967,6 +1014,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al202_uSafeResetTyp"
@@ -985,6 +1033,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al203_uSafeResetTyp"
@@ -1003,6 +1052,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al204_uSafeResetTyp"
@@ -1021,6 +1071,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al205_uSafeResetTyp"
@@ -1039,6 +1090,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al206_uSafeResetTyp"
@@ -1057,6 +1109,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al207_uSafeResetTyp"
@@ -1075,6 +1128,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al208_uSafeResetTyp"
@@ -1093,6 +1147,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al209_uSafeResetTyp"
@@ -1111,6 +1166,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al210_uSafeResetTyp"
@@ -1129,6 +1185,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al211_uSafeResetTyp"
@@ -1147,6 +1204,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al212_uSafeResetTyp"
@@ -1165,6 +1223,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al213_uSafeResetTyp"
@@ -1183,6 +1242,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al214_uSafeResetTyp"
@@ -1201,6 +1261,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al215_uSafeResetTyp"
@@ -1219,6 +1280,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
       <Variable
         Name="Al216_uSafeResetTyp"
@@ -1237,6 +1299,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="TRUE"
         StringSize="0" />
     </Variable>
     <Variable
