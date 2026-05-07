@@ -18850,7 +18850,7 @@ msgstr "logic expo"
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_6]"
 msgid "Request Comp"
-msgstr ""
+msgstr "Request Comp"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_7]"
@@ -18955,12 +18955,12 @@ msgstr "TimeRamp1"
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_10]"
 msgid "TimeRamp2"
-msgstr ""
+msgstr "TimeRamp2"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_11]"
 msgid "Ramp2_Slope"
-msgstr ""
+msgstr "Ramp2_Slope"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3_Clone_2][Field:Text_12]"
