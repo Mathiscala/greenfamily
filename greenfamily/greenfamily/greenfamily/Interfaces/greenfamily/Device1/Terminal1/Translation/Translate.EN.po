@@ -18515,7 +18515,7 @@ msgstr "GROWING"
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2][Field:Text_2]"
 msgid "HR SETPOINT"
-msgstr ""
+msgstr "HR SETPOINT"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2][Field:Text_3]"
@@ -18565,7 +18565,7 @@ msgstr ":"
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2][Field:Text_12]"
 msgid "NIGHT  "
-msgstr ""
+msgstr "NIGHT  "
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2][Field:Text_13]"
