@@ -126,6 +126,8 @@
     <Function Name="TempToPress_INT_BLDC" ElementGuid="8b964e26-30f0-43b8-aeb6-cf445d4447a7" Language="FBD" CustomFbd="0" Is1499="false" />
     <Function Name="TempToPress_REAL_BLDC" ElementGuid="cc7c5ea4-0700-4685-a724-0d6cac54be15" Language="ST" CustomFbd="0" Is1499="false" />
     <Function Name="kPaToBarG_BLDC" ElementGuid="b250c5d4-8c26-468c-99af-a729acc283c3" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Reverse_MODE" ElementGuid="3b974e87-c55a-433b-863b-bfe044877483" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Heating_MODE" ElementGuid="d389eedc-03a9-423d-9713-500d8a64a22a" Language="ST" CustomFbd="0" Is1499="false" />
     <FunctionBlock Name="CheckRetainMem" ElementGuid="ec1b33fe-a296-4382-80b7-64983b0c7421" Language="ST" CustomFbd="0" Is1499="false" />
     <FunctionBlock Name="CurrDateTime" ElementGuid="a11eef83-5894-43d4-b5d3-c35a78182592" Language="ST" CustomFbd="0" Is1499="false" />
     <FunctionBlock Name="TimeCounter_INT" ElementGuid="96a47bca-ac05-4b5f-bcda-801e6d353bca" Language="ST" CustomFbd="0" Is1499="false" />
@@ -313,6 +315,16 @@
     <FunctionBlock Name="selectmode" ElementGuid="c6bc08a6-dff3-4225-bbff-ad3c9bd880c5" Language="ST" CustomFbd="0" Is1499="false" />
     <FunctionBlock Name="ControlLogicFlou" ElementGuid="3948906f-f8a8-4f0e-aa64-e31ab0537253" Language="ST" CustomFbd="0" Is1499="false" />
     <FunctionBlock Name="Ventcond" ElementGuid="3fcf5fdd-7fdf-4526-985c-e3e018c4adf9" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="INTEGRALE" ElementGuid="79067ffb-d229-4d44-b7bf-3cc755b1c463" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="DERIVATIVE1" ElementGuid="3ed573b9-37e9-4f7f-bed2-31314ab46714" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="LIMITER" ElementGuid="be9cd7b8-edfb-4c0b-b877-26c1eca66908" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="DEAD_BAND" ElementGuid="47ab8d62-2338-4b65-88b6-dcb83a719166" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="PID_I_Kp" ElementGuid="fae9b84f-1669-4107-abdd-eaf77c343e91" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="RF_TRIG_PID" ElementGuid="0b9a4cf8-7fba-424f-92a9-0baddb503460" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="ExpFilterPID" ElementGuid="0e8a68e7-6991-49bd-bd46-24bedaa8a2eb" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="PID_Adv_2" ElementGuid="4983e2a9-5066-406a-aecb-995f14299dac" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="TooHotOkTooCold" ElementGuid="19b25da0-ec04-4c56-9710-527008fb0712" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="VventAndVcondPID" ElementGuid="d9ace3fe-7711-4eb9-8703-589f59dfd6b1" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="NVRAM_Mng" ElementGuid="ed8efe73-eb1f-4724-af65-438e120b9251" Language="FBD" CustomFbd="0" Is1499="false" />
     <Program Name="GeneralMng" ElementGuid="7a120d2e-a685-464f-92dc-c41fb2a4d679" Language="FBD" CustomFbd="0" Is1499="false" />
     <Program Name="AlarmMng" ElementGuid="3a3fc04a-be01-4fa4-b845-88be46e69fda" Language="FBD" CustomFbd="0" Is1499="false" />

@@ -23,6 +23,9 @@
   <Library Name="IPCfg" Version="1.2.0" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\IPCfg_1_2_0.pp1" GUID="533feb17-9cb4-4cff-ae3b-e90ce28e9467">
     <Dependencies />
   </Library>
+  <Library Name="PID_Adv_2" Version="3.0.3" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\PID_Adv_2_3_0_3.pp1" GUID="d13ec293-44a8-4d7a-a358-fb0ed2e74b1b">
+    <Dependencies />
+  </Library>
   <Library Name="TZ_MNG_LIB" Version="2.0.2" IsSystem="true" ConcreteType="Pou" Moniker="\Libraries\TZ_MNG_LIB_2_0_2.pp1" GUID="66cf2d57-f42c-469b-aef7-4231e3e62b62">
     <Dependencies />
   </Library>

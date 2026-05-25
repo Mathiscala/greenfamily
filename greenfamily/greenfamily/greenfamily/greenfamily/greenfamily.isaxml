@@ -514,6 +514,8 @@
     <DefineWord Name="BLDC_START_UP_RETRY" Define="3" Comment="" Access="ReadOnly" />
     <DefineWord Name="BLDC_CHECK_OK" Define="2" Comment="" Access="ReadOnly" />
     <DefineWord Name="BLDC_RESET_TIMING_RETRY" Define="5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="e_PID" Define="2.7182818284590452353602874713526624977572470936999595749" Comment="" Access="ReadOnly" />
+    <DefineWord Name="DecayTimePID" Define="15" Comment="" Access="ReadOnly" />
   </DefineWords>
   <DataTypes>
     <DataType Name="TZ_DATA_TZM" Comment="" Access="ReadOnly">

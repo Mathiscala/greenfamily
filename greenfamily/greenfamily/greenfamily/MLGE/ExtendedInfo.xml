@@ -42,6 +42,9 @@
   <AcfElementGuid Guid="0adf0593-de38-44a0-982d-c20dd3e23e65">
     <File>TZ_Mng.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="0b9a4cf8-7fba-424f-92a9-0baddb503460">
+    <File>RF_TRIG_PID.acfmlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="0ba6fbe6-6c1d-4988-aea6-47438dbbc66c">
     <File>RFTrig.AcfMlge</File>
   </AcfElementGuid>
@@ -50,6 +53,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="0d318a9a-0cfd-49ba-bd87-49d5e4a18838">
     <File>EEVInit_EVDEMB.acfmlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="0e8a68e7-6991-49bd-bd46-24bedaa8a2eb">
+    <File>ExpFilterPID.acfmlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="0f2da762-e962-4d0d-939f-895a81797ba9">
     <File>CompDefExt2_BLDC.acfmlge</File>
@@ -104,6 +110,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="1961a314-1848-4671-9551-ae54dac54b5b">
     <File>LoadDefExtend2PSD1_PWRP.acfmlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="19b25da0-ec04-4c56-9710-527008fb0712">
+    <File>TooHotOkTooCold.AcfMlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="1bbc6c4c-9a7e-41f9-95ca-ff57ca4de53b">
     <File>WriteMotorDefault_PWRP.acfmlge</File>
@@ -216,8 +225,14 @@
   <AcfElementGuid Guid="3b02270a-e87c-4e24-a53b-f03dc72e9330">
     <File>Limit_INT.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="3b974e87-c55a-433b-863b-bfe044877483">
+    <File>Reverse_MODE.acfmlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="3ddfdf25-7326-4fb3-b70c-ffd87681baeb">
     <File>FlipFlop.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="3ed573b9-37e9-4f7f-bed2-31314ab46714">
+    <File>DERIVATIVE1.acfmlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="3efc2433-25c5-422c-90f4-f112cbf47ffe">
     <File>uSafetyMng_PWRP.acfmlge</File>
@@ -261,8 +276,14 @@
   <AcfElementGuid Guid="46fd2fcc-1203-461f-80a4-860a839ac24f">
     <File>SafetyParam_PWRP.acfmlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="47ab8d62-2338-4b65-88b6-dcb83a719166">
+    <File>DEAD_BAND.acfmlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="4902bf3e-0072-4294-86e3-c35207db89e5">
     <File>Max_INT_BLDC.acfmlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="4983e2a9-5066-406a-aecb-995f14299dac">
+    <File>PID_Adv_2.acfmlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="49965fc7-5259-413d-88bd-e851482b82c5">
     <File>RealToDint_BLDC.acfmlge</File>
@@ -422,6 +443,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="76fab6b8-707c-40f9-8d41-32224d553499">
     <File>TimeToSec.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="79067ffb-d229-4d44-b7bf-3cc755b1c463">
+    <File>INTEGRALE.acfmlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="7a0a0330-9a4c-4fba-919b-a494b9ca365a">
     <File>FEdge.AcfMlge</File>
@@ -699,6 +723,9 @@
   <AcfElementGuid Guid="bdfe6170-1320-48de-850d-c5bc3be4f93a">
     <File>MachineSwap_EVDEMB.acfmlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="be9cd7b8-edfb-4c0b-b877-26c1eca66908">
+    <File>LIMITER.acfmlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="bece30f8-6cca-4b6a-acf8-047ae4b5d50a">
     <File>LoadFullCstm_PWRP.acfmlge</File>
   </AcfElementGuid>
@@ -768,6 +795,9 @@
   <AcfElementGuid Guid="d0a8156d-57c0-478d-9be7-fb8e1f106b73">
     <File>CelToFahr_REAL.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="d389eedc-03a9-423d-9713-500d8a64a22a">
+    <File>Heating_MODE.acfmlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="d3cf6c6d-649a-4c3b-88a7-13d50caba3f0">
     <File>DelayOnOff_INT.AcfMlge</File>
   </AcfElementGuid>
@@ -794,6 +824,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="d9910adb-2a2d-4b18-91d9-80f641d96024">
     <File>BAR_PSI_BLDC.acfmlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="d9ace3fe-7711-4eb9-8703-589f59dfd6b1">
+    <File>VventAndVcondPID.AcfMlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="dacd6946-10f9-4d08-9222-bd6d8c768087">
     <File>TempToPress_REAL.AcfMlge</File>
@@ -944,6 +977,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="f9423cdb-a9ef-4a46-8ad5-f77650ce7ede">
     <File>BLDC2EVD_Emb_2.acfmlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="fae9b84f-1669-4107-abdd-eaf77c343e91">
+    <File>PID_I_Kp.acfmlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="fb254555-b087-42f1-9258-75b4ca0e97a4">
     <File>CRC_Dec_PWRP.acfmlge</File>
