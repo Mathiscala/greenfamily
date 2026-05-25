@@ -1942,6 +1942,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="30000"
         StringSize="0" />
       <Variable
         Name="CstmEnv_LowDeltaPAlrmDelay"

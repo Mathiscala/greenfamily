@@ -21,6 +21,24 @@
       Max=""
       StringSize="0" />
     <Variable
+      Name="Hysteresis"
+      Comment=""
+      DataType="REAL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Decimals="1"
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="i"
       Comment=""
       DataType="DINT"
@@ -21112,6 +21130,42 @@
         Max=""
         StringSize="0" />
     </Variable>
+    <Variable
+      Name="TConsigne"
+      Comment=""
+      DataType="REAL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Decimals="1"
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
+      Name="Tserre"
+      Comment=""
+      DataType="REAL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Decimals="1"
+      Min=""
+      Max=""
+      StringSize="0" />
     <Variable
       Name="Vcomp"
       Comment=""

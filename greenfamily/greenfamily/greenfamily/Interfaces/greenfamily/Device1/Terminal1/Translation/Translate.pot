@@ -18942,6 +18942,11 @@ msgid ":"
 msgstr ""
 
 #: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_15]"
+msgid ":"
+msgstr ""
+
+#: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_17]"
 msgid "2"
 msgstr ""
@@ -18977,8 +18982,83 @@ msgid "2"
 msgstr ""
 
 #: 02_Main.otws
-msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_15]"
-msgid ":"
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text]"
+msgid "Recirculat fan speed"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_2]"
+msgid "1 2 3 4 5 6 7 8 9 10"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_3]"
+msgid "10 20 30 40 50"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_4]"
+msgid "Vent"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_5]"
+msgid "Vent"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_6]"
+msgid "Cond"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_7]"
+msgid "Vent"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_8]"
+msgid "Vent"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_9]"
+msgid "COMP"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_10]"
+msgid "%"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_11]"
+msgid "%"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_12]"
+msgid "%"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_14]"
+msgid "%"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_15]"
+msgid "%"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_16]"
+msgid "%"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_18]"
+msgid "1"
 msgstr ""
 
 #: 02_Main.otws

@@ -263,6 +263,22 @@ RECIRCU SPEED
 %
 1
 When room temp & RH are OK, If recirculation is ON, then the unit fan runs at the defined speed %
+interpol
+2
+10 20 30 40 50
+60 70 80 90 100
+Vent
+Cond
+Cond
+Vent
+COMP
+COMP
+%
+%
+%
+%
+%
+%
 PAGINA PRINCIPAL
 /
 /

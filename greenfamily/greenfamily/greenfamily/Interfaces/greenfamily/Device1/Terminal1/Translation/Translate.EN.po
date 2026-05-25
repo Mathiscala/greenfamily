@@ -18658,6 +18658,11 @@ msgid "hysteresis"
 msgstr "hysteresis"
 
 #: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_2]"
+msgid "IF Tß<SETP-HYS : HEAT"
+msgstr "IF Tß<SETP-HYS : HEAT"
+
+#: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_3]"
 msgid "HYS Temp~"
 msgstr "HYS Temp~"
@@ -18666,6 +18671,11 @@ msgstr "HYS Temp~"
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_4]"
 msgid "HYS HR~"
 msgstr "HYS RH~"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_5]"
+msgid "IF Tß>SETP+HYS : COOL"
+msgstr "IF Tß>SETP+HYS : COOL"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_6]"
@@ -18721,16 +18731,6 @@ msgstr "1"
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_19]"
 msgid "%"
 msgstr "%"
-
-#: 02_Main.otws
-msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_2]"
-msgid "IF Tß<SETP-HYS : HEAT"
-msgstr "IF Tß<SETP-HYS : HEAT"
-
-#: 02_Main.otws
-msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_5]"
-msgid "IF Tß>SETP+HYS : COOL"
-msgstr "IF Tß>SETP+HYS : COOL"
 
 #: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_3_Clone_2_Clone_2][Field:Text_9]"
@@ -18943,6 +18943,11 @@ msgid ":"
 msgstr ":"
 
 #: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_15]"
+msgid ":"
+msgstr ""
+
+#: 02_Main.otws
 msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_17]"
 msgid "2"
 msgstr "2bis"
@@ -18978,9 +18983,84 @@ msgid "2"
 msgstr "2"
 
 #: 02_Main.otws
-msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_3][Field:Text_15]"
-msgid ":"
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text]"
+msgid "Recirculat fan speed"
+msgstr "interpol"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_2]"
+msgid "1 2 3 4 5 6 7 8 9 10"
+msgstr "10 20 30 40 50"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_3]"
+msgid "10 20 30 40 50"
+msgstr "60 70 80 90 100"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_4]"
+msgid "Vent"
+msgstr "Vent"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_5]"
+msgid "Vent"
+msgstr "Cond"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_6]"
+msgid "Cond"
+msgstr "Cond"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_7]"
+msgid "Vent"
+msgstr "Vent"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_8]"
+msgid "Vent"
+msgstr "COMP"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_9]"
+msgid "COMP"
+msgstr "COMP"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_10]"
+msgid "%"
+msgstr "%"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_11]"
+msgid "%"
+msgstr "%"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_12]"
+msgid "%"
+msgstr "%"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_14]"
+msgid "%"
 msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_15]"
+msgid "%"
+msgstr "%"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_16]"
+msgid "%"
+msgstr "%"
+
+#: 02_Main.otws
+msgctxt "[Mask:SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2][Field:Text_18]"
+msgid "1"
+msgstr "2"
 
 #: 02_Main.otws
 msgctxt "[Mask:SysInfo_1][Field:Text]"
