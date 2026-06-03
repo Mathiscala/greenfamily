@@ -727,16 +727,16 @@
         <Field Type="Text" Name="Text_18" Row="0" Column="21" Content="2" />
         <Field Type="Text" Name="Text_2" Row="1" Column="6" Content="10 20 30 40 50" />
         <Field Type="Text" Name="Text_3" Row="5" Column="6" Content="60 70 80 90 100" />
-        <Field Type="Variable" Name="Variable" Row="3" Column="5" Content="AIRGAIA.tabVcondDeshu[1]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_2" Row="3" Column="8" Content="AIRGAIA.tabVcondDeshu[2]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_3" Row="3" Column="11" Content="AIRGAIA.tabVcondDeshu[3]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_4" Row="3" Column="14" Content="AIRGAIA.tabVcondDeshu[4]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_5" Row="3" Column="17" Content="AIRGAIA.tabVcondDeshu[5]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_6" Row="7" Column="5" Content="AIRGAIA.tabVcondDeshu[6]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_7" Row="7" Column="8" Content="AIRGAIA.tabVcondDeshu[7]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_8" Row="7" Column="11" Content="AIRGAIA.tabVcondDeshu[8]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_9" Row="7" Column="14" Content="AIRGAIA.tabVcondDeshu[9]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_10" Row="7" Column="17" Content="AIRGAIA.tabVcondDeshu[10]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="5" Content="AIRGAIA.tabVcondDeshu_2[1]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_2" Row="3" Column="8" Content="AIRGAIA.tabVcondDeshu_2[2]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_3" Row="3" Column="11" Content="AIRGAIA.tabVcondDeshu_2[3]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="14" Content="AIRGAIA.tabVcondDeshu_2[4]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_5" Row="3" Column="17" Content="AIRGAIA.tabVcondDeshu_2[5]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_6" Row="7" Column="5" Content="AIRGAIA.tabVcondDeshu_2[6]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_7" Row="7" Column="8" Content="AIRGAIA.tabVcondDeshu_2[7]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_8" Row="7" Column="11" Content="AIRGAIA.tabVcondDeshu_2[8]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_9" Row="7" Column="14" Content="AIRGAIA.tabVcondDeshu_2[9]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_10" Row="7" Column="17" Content="AIRGAIA.tabVcondDeshu_2[10]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
         <Field Type="Variable" Name="Variable_11" Row="2" Column="5" Content="AIRGAIA.tabVventDeshu[1]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
         <Field Type="Variable" Name="Variable_13" Row="2" Column="8" Content="AIRGAIA.tabVventDeshu[2]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
         <Field Type="Variable" Name="Variable_14" Row="2" Column="11" Content="AIRGAIA.tabVventDeshu[3]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
