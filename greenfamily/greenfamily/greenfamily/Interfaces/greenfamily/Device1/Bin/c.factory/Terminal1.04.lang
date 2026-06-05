@@ -51,8 +51,42 @@ cycleTime actu
 :
 ~
 s
+2bis
+ACQ_Al_Trip
+:
+SET COMP
+logic expo
+varationCalc
+PwrpReadyToGo
+Request Comp
+VlvReadyToGo
+TIME VENT~COMP
+:
+:
+:
+:
+2bis
+requestsimu
+:
+:
+:
+SET COMP
+RampEnable
+Ramp1_Slope
+Ramp2_Slope
+TimeRamp2
+TimeRamp1
+:
+:
+~
+:
+:
 2
-OFFSET External Cond
+%
+m
+%
+m
+OFFSET Vent
 offset_TooCol
 offset_OK
 offset_TooHot
@@ -72,6 +106,33 @@ h
 SunRise
 SunSet
 4
+External Cond
+TextLimiteMin
+TextCoef
+TsoufflageCoef
+:
+:
+:
+5
+TserreCoef
+Ž
+:
+simulation
+simulator~
+HRconsig_simu
+Tserre_simu
+:
+:
+:
+HRserre_simu
+Ž
+:
+Tconsig_simu
+Text_simu
+:
+Ž
+Ž
+6
 Info
 *NOMBRE EMPRESA*
 Vers. SW:
@@ -202,6 +263,34 @@ RECIRCU SPEED
 %
 1
 When room temp & RH are OK, If recirculation is ON, then the unit fan runs at the defined speed %
+interpol
+2
+10 20 30 40 50
+60 70 80 90 100
+VentJ
+VentJ
+COMP
+COMP
+%
+%
+%
+%
+%
+%
+VentN
+VentN
+interpol
+3
+10 20 30 40 50
+60 70 80 90 100
+Cond
+Cond
+COMP
+COMP
+%
+%
+%
+%
 PAGINA PRINCIPAL
 /
 /

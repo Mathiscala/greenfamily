@@ -38,7 +38,7 @@
       Decimals="3"
       Min=""
       Max=""
-      InitialValue="0.4"
+      InitialValue="0.2"
       StringSize="0" />
     <Variable
       Name="HYS"

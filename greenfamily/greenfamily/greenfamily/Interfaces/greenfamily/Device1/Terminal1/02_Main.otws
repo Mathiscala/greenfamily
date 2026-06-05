@@ -579,7 +579,9 @@
         <Field Type="Variable" Name="Variable_5" Row="6" Column="15" Content="AIRGAIA.HWserre" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Variable" Name="Variable_7" Row="3" Column="15" Content="AIRGAIA.Tsoufflage" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
         <Field Type="Text" Name="Text_5" Row="7" Column="0" Content="DH inside    :" />
-        <Field Type="Variable" Name="Variable_4" Row="7" Column="15" Content="AIRGAIA.DH_serre" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="7" Column="15" Content="AIRGAIA.DH_serre" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="RH OK        :" />
+        <Field Type="Variable" Name="Variable_6" Row="5" Column="15" Content="AIRGAIA.HR_OK" Min="0" Max="1" Class="NoYes_BLDC" Format="ob" />
       </Fields>
       <KeyBindings />
     </Mask>
@@ -727,6 +729,49 @@
         <Field Type="Text" Name="Text_18" Row="0" Column="21" Content="2" />
         <Field Type="Text" Name="Text_2" Row="1" Column="6" Content="10 20 30 40 50" />
         <Field Type="Text" Name="Text_3" Row="5" Column="6" Content="60 70 80 90 100" />
+        <Field Type="Variable" Name="Variable_11" Row="2" Column="5" Content="AIRGAIA.tabVventDeshu_Jour[1]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_13" Row="2" Column="8" Content="AIRGAIA.tabVventDeshu_Jour[2]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_14" Row="2" Column="11" Content="AIRGAIA.tabVventDeshu_Jour[3]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_15" Row="2" Column="14" Content="AIRGAIA.tabVventDeshu_Jour[4]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_16" Row="2" Column="17" Content="AIRGAIA.tabVventDeshu_Jour[5]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_17" Row="6" Column="5" Content="AIRGAIA.tabVventDeshu_Jour[6]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_18" Row="6" Column="8" Content="AIRGAIA.tabVventDeshu_Jour[7]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_19" Row="6" Column="11" Content="AIRGAIA.tabVventDeshu_Jour[8]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_20" Row="6" Column="14" Content="AIRGAIA.tabVventDeshu_Jour[9]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_21" Row="6" Column="17" Content="AIRGAIA.tabVventDeshu_Jour[10]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="0" Content="VentJ" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="0" Content="VentJ" />
+        <Field Type="Text" Name="Text_8" Row="1" Column="0" Content="COMP" />
+        <Field Type="Text" Name="Text_9" Row="5" Column="0" Content="COMP" />
+        <Field Type="Text" Name="Text_10" Row="1" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_11" Row="2" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_14" Row="5" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_15" Row="6" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_16" Row="7" Column="21" Content="%" />
+        <Field Type="Text" Name="Text_5" Row="3" Column="21" Content="%" />
+        <Field Type="Variable" Name="Variable_2" Row="7" Column="5" Content="AIRGAIA.tabVventDeshu_Nuit[6]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_3" Row="7" Column="8" Content="AIRGAIA.tabVventDeshu_Nuit[7]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Text" Name="Text_6" Row="7" Column="0" Content="VentN" />
+        <Field Type="Variable" Name="Variable_4" Row="7" Column="11" Content="AIRGAIA.tabVventDeshu_Nuit[8]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_5" Row="7" Column="14" Content="AIRGAIA.tabVventDeshu_Nuit[9]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_6" Row="7" Column="17" Content="AIRGAIA.tabVventDeshu_Nuit[10]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_7" Row="3" Column="5" Content="AIRGAIA.tabVventDeshu_Nuit[1]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_8" Row="3" Column="8" Content="AIRGAIA.tabVventDeshu_Nuit[2]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_9" Row="3" Column="11" Content="AIRGAIA.tabVventDeshu_Nuit[3]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_10" Row="3" Column="14" Content="AIRGAIA.tabVventDeshu_Nuit[4]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Variable" Name="Variable_22" Row="3" Column="17" Content="AIRGAIA.tabVventDeshu_Nuit[5]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
+        <Field Type="Text" Name="Text_12" Row="3" Column="0" Content="VentN" />
+      </Fields>
+      <KeyBindings />
+    </Mask>
+    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2" Type="Normal" X="5" Y="8" Color="LightCyan">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable_12" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text" Row="0" Column="0" Content="interpol" />
+        <Field Type="Text" Name="Text_18" Row="0" Column="21" Content="3" />
+        <Field Type="Text" Name="Text_2" Row="1" Column="6" Content="10 20 30 40 50" />
+        <Field Type="Text" Name="Text_3" Row="5" Column="6" Content="60 70 80 90 100" />
         <Field Type="Variable" Name="Variable" Row="3" Column="5" Content="AIRGAIA.tabVcondDeshu_2[1]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
         <Field Type="Variable" Name="Variable_2" Row="3" Column="8" Content="AIRGAIA.tabVcondDeshu_2[2]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
         <Field Type="Variable" Name="Variable_3" Row="3" Column="11" Content="AIRGAIA.tabVcondDeshu_2[3]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
@@ -737,28 +782,43 @@
         <Field Type="Variable" Name="Variable_8" Row="7" Column="11" Content="AIRGAIA.tabVcondDeshu_2[8]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
         <Field Type="Variable" Name="Variable_9" Row="7" Column="14" Content="AIRGAIA.tabVcondDeshu_2[9]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
         <Field Type="Variable" Name="Variable_10" Row="7" Column="17" Content="AIRGAIA.tabVcondDeshu_2[10]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_11" Row="2" Column="5" Content="AIRGAIA.tabVventDeshu[1]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_13" Row="2" Column="8" Content="AIRGAIA.tabVventDeshu[2]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_14" Row="2" Column="11" Content="AIRGAIA.tabVventDeshu[3]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_15" Row="2" Column="14" Content="AIRGAIA.tabVventDeshu[4]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_16" Row="2" Column="17" Content="AIRGAIA.tabVventDeshu[5]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_17" Row="6" Column="5" Content="AIRGAIA.tabVventDeshu[6]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_18" Row="6" Column="8" Content="AIRGAIA.tabVventDeshu[7]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_19" Row="6" Column="11" Content="AIRGAIA.tabVventDeshu[8]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_20" Row="6" Column="14" Content="AIRGAIA.tabVventDeshu[9]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Variable" Name="Variable_21" Row="6" Column="17" Content="AIRGAIA.tabVventDeshu[10]" Class="CL_REAL_0" Format="io+2.0" Min="-99.0" Max="99.0" />
-        <Field Type="Text" Name="Text_4" Row="2" Column="0" Content="Vent" />
         <Field Type="Text" Name="Text_5" Row="3" Column="0" Content="Cond" />
         <Field Type="Text" Name="Text_6" Row="7" Column="0" Content="Cond" />
-        <Field Type="Text" Name="Text_7" Row="6" Column="0" Content="Vent" />
         <Field Type="Text" Name="Text_8" Row="1" Column="0" Content="COMP" />
         <Field Type="Text" Name="Text_9" Row="5" Column="0" Content="COMP" />
         <Field Type="Text" Name="Text_10" Row="1" Column="21" Content="%" />
-        <Field Type="Text" Name="Text_11" Row="2" Column="21" Content="%" />
         <Field Type="Text" Name="Text_12" Row="3" Column="21" Content="%" />
         <Field Type="Text" Name="Text_14" Row="5" Column="21" Content="%" />
-        <Field Type="Text" Name="Text_15" Row="6" Column="21" Content="%" />
         <Field Type="Text" Name="Text_16" Row="7" Column="21" Content="%" />
+      </Fields>
+      <KeyBindings />
+    </Mask>
+    <Mask Name="SwInfo_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2_Clone_2" Type="Normal" X="5" Y="9" Color="LightCyan">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable_12" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Text" Name="Text" Row="0" Column="0" Content="PID nuit regul" />
+        <Field Type="Text" Name="Text_18" Row="0" Column="21" Content="4" />
+        <Field Type="Text" Name="Text_2" Row="2" Column="0" Content="Kp Vent" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="Ti" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="Td" />
+        <Field Type="Variable" Name="Variable" Row="5" Column="12" Content="AIRGAIA.KpCond_2" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_2" Row="6" Column="12" Content="AIRGAIA.TiCond_2" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_3" Row="7" Column="12" Content="AIRGAIA.TdCond_1" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="12" Content="AIRGAIA.TdCond_1" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_5" Row="2" Column="12" Content="AIRGAIA.KpVent_1" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_6" Row="3" Column="12" Content="AIRGAIA.TiCond_2" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="Kp Cond" />
+        <Field Type="Text" Name="Text_6" Row="6" Column="0" Content="Ti" />
+        <Field Type="Text" Name="Text_7" Row="7" Column="0" Content="Td" />
+        <Field Type="Variable" Name="Variable_7" Row="1" Column="10" Content="AIRGAIA.regulNuit" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+        <Field Type="Text" Name="Text_8" Row="1" Column="0" Content="regulNuit" />
+        <Field Type="Text" Name="Text_9" Row="6" Column="19" Content="s" />
+        <Field Type="Text" Name="Text_10" Row="7" Column="19" Content="s" />
+        <Field Type="Text" Name="Text_12" Row="3" Column="19" Content="s" />
+        <Field Type="Text" Name="Text_13" Row="4" Column="19" Content="s" />
+        <Field Type="Text" Name="Text_11" Row="1" Column="11" Content="Vcomp" />
+        <Field Type="Variable" Name="Variable_8" Row="1" Column="16" Content="AIRGAIA.VCompBaseRegulNuit_1" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
       </Fields>
       <KeyBindings />
     </Mask>

@@ -11,7 +11,7 @@
     <Variable Name="Out" DataType="INT" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="VarOutput" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Output" CommentFields="" Attributes="0" />
     <Variable Name="Lower" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
     <Variable Name="Upper" DataType="REAL" InitialValue="" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
-    <Variable Name="EncAbs" DataType="REAL" InitialValue="0.4" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
+    <Variable Name="EncAbs" DataType="REAL" InitialValue="0.2" Comment="" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
     <Variable Name="HYSTER_Low" DataType="HYSTER" InitialValue="" Comment="Boolean hysteresis on difference of reals" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
     <Variable Name="HYSTER_High" DataType="HYSTER" InitialValue="" Comment="Boolean hysteresis on difference of reals" Address="" Modifier="Constant" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" Direction="Local" CommentFields="" Attributes="0" />
   </LocalVars>
