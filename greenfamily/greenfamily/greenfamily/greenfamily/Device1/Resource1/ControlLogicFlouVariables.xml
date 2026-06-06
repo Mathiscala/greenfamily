@@ -183,6 +183,23 @@
       Max=""
       StringSize="0" />
     <Variable
+      Name="degivrage"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="Delta_Negatif"
       Comment=""
       DataType="REAL"
@@ -1704,6 +1721,24 @@
       InitialValue="30.0"
       StringSize="0" />
     <Variable
+      Name="VCompBaseRegulNuitOld"
+      Comment=""
+      DataType="REAL"
+      Kind="Var"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Decimals="1"
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="Vcond"
       Comment=""
       DataType="REAL"
@@ -1756,6 +1791,25 @@
       Decimals="1"
       Min=""
       Max=""
+      StringSize="0" />
+    <Variable
+      Name="VitesseCompDegivrage"
+      Comment=""
+      DataType="REAL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Decimals="1"
+      Min=""
+      Max=""
+      InitialValue="30.0"
       StringSize="0" />
     <Variable
       Name="VitesseDefautDemarrage"

@@ -21,6 +21,23 @@
       Max=""
       StringSize="0" />
     <Variable
+      Name="degivrage"
+      Comment=""
+      DataType="BOOL"
+      Kind="VarInput"
+      IO="false"
+      Protocol="false"
+      UI="false"
+      Default="false"
+      LogPV="false"
+      IsRetained="false"
+      Alarm="false"
+      UoM="NoUnits"
+      Access="ReadWrite"
+      Min=""
+      Max=""
+      StringSize="0" />
+    <Variable
       Name="Hysteresis"
       Comment=""
       DataType="REAL"

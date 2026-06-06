@@ -227,6 +227,20 @@ RPS
 COMP Vreel
 :
 RPS
+OVER VIEW
+4
+Tbp
+Thp
+Taspiration
+Trefoulement
+:
+:
+:
+:
+Ž
+Ž
+Ž
+Ž
 SEL regul
 Select Mode
 1
@@ -306,6 +320,26 @@ s
 s
 s
 Vcomp
+Équilibrage pression
+5
+TimeAvTbpEvap
+TbpEvapLimBass
+VcompVariable
+TimeTbpMaintie
+TbpEvapMaintie
+EQ Pression
+:
+:
+:
+:
+:
+:
+:
+m
+m
+%
+Ž
+Ž
 PAGINA PRINCIPALE
 /
 /
