@@ -35,7 +35,30 @@ V cond
 %
 %
 1
-SET COMP
+ElectvCondInt
+ElectvCondExt
+:
+:
+SET COMP Day
+Encadrement T
+Encadrement HR
+cycleTime T
+cycleTime HR
+s
+s
+Encadrem actu
+cycleTime actu
+:
+:
+~
+:
+:
+~
+2bis
+ACQ_Al_Trip
+:
+s
+SET COMP Night
 Encadrement T
 Encadrement HR
 cycleTime T
@@ -210,16 +233,10 @@ Tß supply    :
 2
 DH inside    :
 RH OK        :
-VENT
 OVER VIEW
 3
 COMP
-COND
-%
 RPS
-%
-:
-:
 :
 :
 :
@@ -227,6 +244,26 @@ RPS
 COMP Vreel
 :
 RPS
+COMP Flou T
+COMP Fl Actu
+RPS
+RPS
+COMP Flou HR
+:
+:
+VENT
+OVER VIEW
+3
+COND
+%
+%
+:
+:
+:
+:
+:
+:
+:
 OVER VIEW
 4
 Tbp
@@ -340,6 +377,21 @@ m
 %
 Ž
 Ž
+AV Équilibrage press
+6
+TbpLimBas_AvEQ
+Avent EQ
+:
+:
+Ž
+ElectroVanne
+7
+timeElecV int
+timeElecV ext
+s
+s
+:
+:
 PAGE PRINCIPALE
 /
 /

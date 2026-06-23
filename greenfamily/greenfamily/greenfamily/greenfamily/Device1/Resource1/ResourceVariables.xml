@@ -8047,24 +8047,6 @@
       Max="999999"
       StringSize="0" />
     <Variable
-      Name="minute"
-      Comment=""
-      DataType="UINT"
-      Kind="Var"
-      IO="false"
-      Protocol="false"
-      UI="false"
-      Default="false"
-      LogPV="false"
-      IsRetained="false"
-      Alarm="false"
-      UoM="NoUnits"
-      Access="ReadWrite"
-      Acronym=""
-      Min=""
-      Max=""
-      StringSize="0" />
-    <Variable
       Name="minutee"
       Comment=""
       DataType="INT"

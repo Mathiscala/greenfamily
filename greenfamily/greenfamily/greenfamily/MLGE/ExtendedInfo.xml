@@ -423,6 +423,9 @@
   <AcfElementGuid Guid="6fbd7ffa-c58f-4781-8650-33d2549d9d63">
     <File>RangeUniv.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="709ab772-b8b4-4800-84ee-de37b84e1d5a">
+    <File>VitesseVent.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="70b2f4f0-f4d6-4f13-90c4-04b1db836dc2">
     <File>WeekDay_UINT.AcfMlge</File>
   </AcfElementGuid>
@@ -821,6 +824,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="d94f508c-5c98-44c4-8414-4c7fae701fb6">
     <File>DigitConv_INT.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="d95698f9-8d58-4fba-9db9-180d5f8a6ea7">
+    <File>VitesseCond.AcfMlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="d9910adb-2a2d-4b18-91d9-80f641d96024">
     <File>BAR_PSI_BLDC.acfmlge</File>
