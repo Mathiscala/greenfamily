@@ -676,6 +676,10 @@
         <Field Type="Text" Name="Text_2" Row="3" Column="13" Content=":" />
         <Field Type="Text" Name="Text_6" Row="6" Column="13" Content=":" />
         <Field Type="Text" Name="Text_9" Row="7" Column="13" Content=":" />
+        <Field Type="Variable" Name="Variable_2" Row="6" Column="15" Content="AIRGAIA.ElectrovanneBypassCondInt" Class="onoff" Format="ob" Min="0" Max="1" />
+        <Field Type="Variable" Name="Variable_5" Row="7" Column="15" Content="AIRGAIA.ElectrovanneBypassCondExt" Class="onoff" Format="ob" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_10" Row="6" Column="0" Content="BypassCondInt" />
+        <Field Type="Text" Name="Text_13" Row="7" Column="0" Content="BypassCondExt" />
       </Fields>
       <KeyBindings />
     </Mask>

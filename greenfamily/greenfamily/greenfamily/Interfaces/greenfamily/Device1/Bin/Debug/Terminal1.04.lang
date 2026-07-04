@@ -264,6 +264,8 @@ COND
 :
 :
 :
+BypassCondInt
+BypassCondExt
 OVER VIEW
 4
 Tbp
@@ -3154,7 +3156,7 @@ Salir
 ADMIN
 DEFAUT
 OFF
-START
+AUTO
  
 1PH
  

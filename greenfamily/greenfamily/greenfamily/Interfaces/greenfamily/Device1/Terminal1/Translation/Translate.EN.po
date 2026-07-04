@@ -9435,7 +9435,7 @@ msgstr "OFF"
 #: Classes.otsf
 msgctxt "[Class:MODE][Resource:3]"
 msgid "GROWING"
-msgstr "START"
+msgstr "AUTO"
 
 #: Classes.otsf
 msgctxt "[Class:Module_Phase1][Resource:0]"
@@ -18323,6 +18323,11 @@ msgid ":"
 msgstr ""
 
 #: 02_Main.otws
+msgctxt "[Mask:Supervision_temp_Clone_3_Clone_2_Clone_3][Field:Text_10]"
+msgid "BypassCondInt"
+msgstr "BypassCondInt"
+
+#: 02_Main.otws
 msgctxt "[Mask:Supervision_temp_Clone_3_Clone_2_Clone_3][Field:Text_11]"
 msgid ":"
 msgstr ""
@@ -18331,6 +18336,11 @@ msgstr ""
 msgctxt "[Mask:Supervision_temp_Clone_3_Clone_2_Clone_3][Field:Text_12]"
 msgid ":"
 msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:Supervision_temp_Clone_3_Clone_2_Clone_3][Field:Text_13]"
+msgid "BypassCondInt"
+msgstr "BypassCondExt"
 
 #: 02_Main.otws
 msgctxt "[Mask:Supervision_temp_Clone_3_Clone_2_Clone_3][Field:Text_14]"
