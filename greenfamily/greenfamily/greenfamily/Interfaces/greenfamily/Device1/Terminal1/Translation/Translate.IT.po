@@ -9438,6 +9438,11 @@ msgid "GROWING"
 msgstr ""
 
 #: Classes.otsf
+msgctxt "[Class:MODE][Resource:4]"
+msgid "AUTO + SECU"
+msgstr ""
+
+#: Classes.otsf
 msgctxt "[Class:Module_Phase1][Resource:0]"
 msgid ""
 msgstr ""
@@ -16295,6 +16300,11 @@ msgstr ""
 #: 3_EEV.otws
 msgctxt "[Mask:m_Synoptic_comp_EEV1][Field:Text_1]"
 msgid "~"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:Main][Field:Text]"
+msgid "GREENFAMILY"
 msgstr ""
 
 #: 02_Main.otws

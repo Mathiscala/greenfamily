@@ -17,6 +17,7 @@
       <Field Type="Image" Name="Image_4" Row="6" Column="20" Content="UpDown2.bmp" />
       <Field Type="Variable" Name="Variable_8" Row="0" Column="11" Content="GeneralMng.DayOfWeek" Class="DayOfWeekShort" Format="o1" Min="0" Max="9" />
       <Field Type="Image" Name="Image" Row="2" Column="11" Content="airgaialogo.bmp" />
+      <Field Type="Text" Name="Text" Row="5" Column="2" Content="GREENFAMILY" />
     </Fields>
     <KeyBindings>
       <KeyBinding Key="PRG" BindOn="GotoMainMenu" />
